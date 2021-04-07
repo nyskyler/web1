@@ -58,8 +58,7 @@ ol {
 
 #content ol {
   border-right: 0px solid red;
-  margin: 0px;
-  padding-top: 0%;
+  text-align: left;
   padding-left: 5%;
 }
 
