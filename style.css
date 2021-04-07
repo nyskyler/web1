@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+div.btn input{
+  margin-bottom: 10%;
+  padding: 5px;
+  width: 50%;
+  font-size: 50px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 60% 1fr;
+  border-bottom: 4px solid #FF7F36;
+  padding: 2px;
+}
+
+#one {
+  font-family: 'Black Han Sans', sans-serif;
+  background-color:#FF7F36; font-size:3vw; margin-top:0px; margin-bottom: 1%; padding: 5%; color:white; text-align:center;
+}
+
+#grid2 {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  font-size: 2.5vw;
+  font-family: 'Poor Story', cursive;
+}
+
+ol {
+  border-right: 4px solid red;
+  margin: 0px;
+  padding-top: 10%;
+  padding-left: 15%;
+}
+
+#content {
+  padding: 30px;
+  font-size: 2.1vw;
+  font-family: 'Noto Serif KR', serif;
+}
+
+#content li {
+  font-size: 2.1vw;
+  font-family: 'Noto Serif KR', serif;
+}
+
+#content ol {
+  border-right: 0px solid red;
+  text-align: left;
+  padding-top: 0%;
+  padding-left: 5%;
+}
+
+#content img {
+  margin: 5%
+}
+
+@media screen and (max-width: 1024px){
+  #content {
+    font-size: 45px;
+  }
+
+  #grid {
+    display: block;
+  }
+
+  #grid .banner {
+    display: none;
+  }
+
+  #one {
+    font-size: 0px;
+  }
+
+  #one:after {
+    font-size: 10vw;
+    content: "포남초등학교 당근마켓";
+  }
+
+  #grid2 {
+    display: block;
+  }
+
+  .upper {
+    border-right: none;
+    text-align: center;
+    list-style-position: inside;
+    padding: 10%
+  }
+
+  #grid2 .lis {
+    font-size: 50px;
+  }
+}
