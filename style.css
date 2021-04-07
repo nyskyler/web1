@@ -92,6 +92,10 @@ ol {
   #grid2 {
     display: block;
   }
+  
+  #grid2 ol ul {
+    font-size: 50px;
+  }
 
   .upper {
     border-right: none;
