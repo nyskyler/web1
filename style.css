@@ -59,6 +59,7 @@ ol {
 #content ol {
   border-right: 0px solid red;
   text-align: left;
+  margin: 0%;
   padding-left: 5%;
 }
 
